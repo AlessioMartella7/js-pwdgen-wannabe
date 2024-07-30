@@ -11,7 +11,7 @@ Infine stampa in console nomecognomecolorepreferito21 */
 4-chiedere all'utente il suo cognome
 5-chiedere all'utente il suo colore preferito
 6-unisco tutte le informazioni recuperate
-7-stampo il messaggio in console
+7-stampo il messaggio in pagina
 
 */
 
@@ -36,9 +36,14 @@ const lastName = prompt('Dimmi il tuo cognome', 'martella');
 console.log(lastName, typeof lastName);
 
 
-// chiedo all'utente il colore preferito
+//chiedo all'utente il colore preferito
 
 const favColor = prompt('Dimmi il tuo colore preferito', 'nero');
 console.log(favColor, typeof favColor);
 
+//unisco  le informazioni recuperate
 
+const fullPassword = firstName + lastName + favColor + passNumb ;
+console.log(fullPassword, typeof fullPassword);
+
+//
