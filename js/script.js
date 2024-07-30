@@ -29,3 +29,9 @@ console.log(passNumb, typeof passNumb );
 
 const firstName = prompt('Dimmi il tuo nome', 'alessio')
 console.log(firstName, typeof firstName);
+
+//chiedo all'utente il cognome
+
+const lastName = prompt('Dimmi il tuo cognome', 'martella')
+console.log(lastName, typeof lastName);
+
