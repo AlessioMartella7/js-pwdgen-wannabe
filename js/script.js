@@ -1,2 +1,26 @@
 console.log('JS OK');
 
+/*
+Traccia: Chiedi all’utente il suo nome,poi chiedi il suo cognome,poi chiedi il suo colore preferito
+Infine stampa in console nomecognomecolorepreferito21 */
+
+/* 
+1-recuperare elementi di interesse dal DOM
+2-preparare variabile "21"
+3-chiedere all'utente il suo nome
+4-chiedere all'utente il suo cognome
+5-chiedere all'utente il suo colore preferito
+6-unisco tutte le informazioni recuperate
+7-stampo il messaggio in console
+
+*/
+
+//recuper elementi da DOM
+
+const passwordGen = document.getElementById('password');
+console.log(passwordGen);
+
+//preparare variabile 21
+
+const passNumb = '21';
+console.log(passNumb, typeof passNumb );
