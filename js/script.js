@@ -15,7 +15,7 @@ Infine stampa in console nomecognomecolorepreferito21 */
 
 */
 
-//recuper elementi da DOM
+//recupero elementi dal DOM
 
 const passwordGen = document.getElementById('password');
 console.log(passwordGen);
@@ -24,3 +24,8 @@ console.log(passwordGen);
 
 const passNumb = '21';
 console.log(passNumb, typeof passNumb );
+
+//chiedo all'utente il nome
+
+const firstName = prompt('Dimmi il tuo nome', 'alessio')
+console.log(firstName, typeof firstName);
