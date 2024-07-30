@@ -27,11 +27,18 @@ console.log(passNumb, typeof passNumb );
 
 //chiedo all'utente il nome
 
-const firstName = prompt('Dimmi il tuo nome', 'alessio')
+const firstName = prompt('Dimmi il tuo nome', 'alessio');
 console.log(firstName, typeof firstName);
 
 //chiedo all'utente il cognome
 
-const lastName = prompt('Dimmi il tuo cognome', 'martella')
+const lastName = prompt('Dimmi il tuo cognome', 'martella');
 console.log(lastName, typeof lastName);
+
+
+// chiedo all'utente il colore preferito
+
+const favColor = prompt('Dimmi il tuo colore preferito', 'nero');
+console.log(favColor, typeof favColor);
+
 
