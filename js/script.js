@@ -46,4 +46,6 @@ console.log(favColor, typeof favColor);
 const fullPassword = firstName + lastName + favColor + passNumb ;
 console.log(fullPassword, typeof fullPassword);
 
-//
+//stampo il messaggio in pagina
+
+passwordGen.innerText = fullPassword ;
